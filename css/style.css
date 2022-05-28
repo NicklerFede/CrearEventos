@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkgray;
+  background-image: url(/img/evento.jpg);
+}
+
+.form {
+  background-color: rgb(197, 86, 224);
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  background-color: red;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.form input {
+margin: 5px 0;
+padding: 5px;
+display: block;
+width: 100%;
+box-sizing: border-box;
+}
+
+input[type="submit"]{
+  border: none;
+  background-color: #13e6e6b7;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#eventsContainer {
+  color: white;
+  background-color: rgb(75, 85, 97);
+  border-radius: 5px;
+  width: 500px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.event{
+  border: solid 1px #ccc;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions{
+  padding: 5px;
+  text-align: center;
+}
+
+span.days-number{
+  font-weight: bolder;
+  font-size: 19px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}p {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+}
